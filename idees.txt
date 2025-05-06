@@ -1,0 +1,121 @@
+lien vers INO 
+https://monespace.snsm.org/s/login/?ec=302&startURL=%2Fs%2F
+
+https://don.snsm.org/soutenir	 
+
+page formation complète ??
+
+
+
+calendrier connecté
+
+DPS UN JOUR
+
+Actualités
+
+doc à télécharger !!
+
+
+
+
+
+
+
+Formation des sauveteurs en mer
+
+La formation que nous vous proposons se déroule de mi- septembre à avril. Il s’agit d’une formation complète qui vous permet de passer, à terme, les diplômes du BNSSA, du SSA mais aussi du permis bateau, du CRR et des diplômes de secourisme.
+
+Ces diplômes sont nécessaires afin de partir en plage.
+
+Afin de vous préparer au mieux au sauvetage mais aussi à la surveillance et la gestion d’interventions, de nombreux entrainements vous seront demandés.
+
+Nos différents entrainements vous préparent aux diplômes:
+
+    Du SSA
+    Du BNSSA
+
+Si vous êtes intéressé, contactez-nous !
+
+photo2
+Partager :
+
+    TwitterFacebook
+
+Formation secourisme
+APPRENEZ LES GESTES CITOYENS– PSC1
+
+Adoptez les gestes qui sauvent !
+
+A l’issue de cette formation, vous serez capable d’exécuter une action citoyenne d’assistance à personne en réalisant les gestes élémentaires de secours   :
+
+    Protéger de façon immédiate, adaptée et permanente vous-même, la victime et les autres personnes en  présence de danger(s)
+    Alerter  les secours adaptés à la situation.
+    Réaliser immédiatement les premiers gestes de secours face à une victime
+
+Cette formation peut se dérouler dans nos locaux ou les vôtres.
+SECOURISME PROFESSIONNEL EN ÉQUIPE – NIVEAU 1 ET 2
+
+Ces deux diplômes sont nécessaires pour prétendre à surveiller les plages; ils sont soumis à formation continue annuelle.
+
+Premiers secours en équipe niveau 1 (PSE1)
+
+Vous serez capable d’agir seul ou en équipe avec du matériel de secourisme afin de réaliser les premiers gestes de secours :
+
+    Bilan
+    Etouffement
+    Hémorragie
+    Inconscient qui respire et qui ne respire pas
+    Traumatismes
+    Plaies & Brûlure
+
+
+Report this AdConfidentialité
+
+Cette formation s’organise sur une période de 35 heures le week-end au Centre de Formation.
+
+Premiers secours en équipe niveau 2 ( PSE2)
+
+Un complément du PSE1, il permet d’être équipier secouriste et à travers une formation de 30heures d’être capable notamment :
+
+    D’effectuer un relevage et brancardage
+    De participer à la prise en charge de multiples victimes dans l’attente de renforts
+    De participer à la prise en charge de victime présentant des lésions liées à des circonstances particulières ou spécifiques
+    De participer à la prise en charge d’une victime souffrant de souffrance psychique.
+
+Ces formations vous intéressent ? Contactez-nous !
+
+
+
+
+
+#0a2a43		Bleu
+
+
+
+
+__________________________________GAME
+
+
+
+
+
+💡 Bonus idées :
+
+    Tu peux animer la position verticale du creux (un petit Math.sin ?) pour une illusion de vagues qui pulsent doucement.
+
+    Ajouter un halo léger blanc à l’intérieur des bords pour plus de réalisme.
+
+
+
+
+📺 5. HUD / UI
+
+    Affichage du score + barre de progression stylée
+
+    Message de fin ("Tu es tombé à l’eau !") ou écran de début
+
+🎵 6. Ajouter du son !
+
+    Un petit moteur qui accélère quand tu appuies
+
+    Bruit d’eau, effet de collision, musique de fond
