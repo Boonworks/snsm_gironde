@@ -1,6 +1,6 @@
 #  SNSM Gironde
 
-Site web de la station SNSM (Société Nationale de Sauvetage en Mer) de Gironde.  
+Site web du CFI SNSM de Gironde.  
 Accédez au site : [boonworks.github.io/snsm_gironde](https://boonworks.github.io/snsm_gironde/)
 
 ---
