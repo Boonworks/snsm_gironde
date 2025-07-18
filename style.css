@@ -291,10 +291,10 @@ canvas {
     position: relative;
 }
 
-.work__corps__block img {
-    width: 100%;
-    height: 100%;
-}
+/*     .work__corps__block img {
+        width: 100%;
+        height: 100%;
+    } */
 
 .work__corps__block h3 {
     position: absolute;
@@ -693,4 +693,23 @@ canvas {
     color: var(--color10);
   }
   
-  
+.img-formation {
+  width: 100%;
+  height: 250px; /* Choisis une hauteur adaptée à ton design */
+  object-fit: cover;
+  display: block;
+}
+
+.img-cfi {
+  width: 400px;
+  height: 100%; /* Choisis une hauteur adaptée à ton design */
+  object-fit: cover;
+  display: block;
+}
+
+.img-missions {
+  width: 400px;
+  height: 100%; /* Choisis une hauteur adaptée à ton design */
+  object-fit: cover;
+  display: block;
+}
