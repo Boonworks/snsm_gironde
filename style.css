@@ -17,6 +17,7 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -61,16 +62,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
 .logo {
 
     position: absolute;
     top: 1rem;
     left: 1rem;
 }
-
-
 
 .logo img {
     max-width: 160px;
@@ -86,41 +83,11 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 
-/* .profil-icon {
-    font-size: 1.4rem;  
-    color: #bee3ff;
-    line-height: 1;
-    vertical-align: middle;    
-    transition: transform 0.3s, color 0.3s;
-} */
-
-/* .profil-icon:hover {
-    color: #fff;
-    transform: scale(1.1);
-} */
-
-
-
-
-/* canvas {
-    border: 3px solid #fff;
-    background: #1e90ff; /* bleu océan 
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
-} */
-
 canvas {
     border: none;
     box-shadow: none;
     background: #1e90ff;
 }
-
-
-
-
-
-
-
-
 
 
 .menu {
@@ -291,11 +258,6 @@ canvas {
     position: relative;
 }
 
-/*     .work__corps__block img {
-        width: 100%;
-        height: 100%;
-    } */
-
 .work__corps__block h3 {
     position: absolute;
     left: 1rem;
@@ -383,7 +345,7 @@ canvas {
     .menu {
         background: var(--color3);
         width: 100%;
-        height: 75vh;
+        height: 70vh;
         top: 0;
         left: 0;
         transform: translateX(-100%);
@@ -394,7 +356,7 @@ canvas {
     }
 
     .menu li a {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .open .menu {
@@ -402,7 +364,7 @@ canvas {
     }
 }
 
-/* Mobile */
+/* _________________RESPONSIVE_______________ */
 @media all and (max-width: 767px) {
 
     .open .logo img {
@@ -462,7 +424,7 @@ canvas {
 }
 
 
-/* moi */
+/* ____________________FOOTER___________________________ */
 
 .footer-bottom {
     margin-top: 2rem;
@@ -502,7 +464,7 @@ canvas {
 
 
 
-  /* test */
+  /* ______________________ALBUM____________________ */
 
 
   .album {
@@ -531,7 +493,6 @@ canvas {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
   }
   
-  /* Lightbox */
   .lightbox {
     display: none;
     position: fixed;
@@ -573,90 +534,6 @@ canvas {
   }
   
 
-/* ____________________JEU____________________________ */
-
-  .jeu {
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
-    background-color: #ffffff;
-    overflow: hidden;
-    margin: 0;
-    padding: 4rem 1rem;
-}
-
-
-
-.restart-btn {
-
-    position: absolute;
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    justify-content: center;
-
-    font-size: 1.1rem;
-    background-color: white;
-    color: #1e90ff;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    cursor: pointer;
-    z-index: 10;
-  }
-  
-
-
-
-  .jeu-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    height: 500px; /* même que le canvas */
-   /*  position: relative; */
-    flex-wrap: wrap;
-  }
-  
-  .restart-btn {
-    padding: 0.8rem 1.2rem;
-    font-size: 1rem;
-    background-color: white;
-    color: #1e90ff;
-    border: none;
-    border-radius: 6px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    cursor: pointer;
-    display: block;
-    align-self: center; /* <=== ALIGNE LE BOUTON AU CENTRE DU CANVAS */
-  }
-  
-  
-/* 
-  @media (max-width: 600px) {
-    .jeu-wrapper {
-      flex-direction: column;
-      height: auto;
-    }
-  } */
-
-  @media all and (max-width: 991px) 
-  {
-    .jeu-wrapper {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    #gameCanvas {
-      width: 80vw;   /* prend 90% de la largeur de l'écran */
-      height: auto;  /* conserve les proportions */
-      max-width: 400px; /* limite max pour ne pas être trop large */
-      max-height: 600px;
-    }
-  }
-  
 
 /* ____________________CALENDRIER____________________________ */
 
@@ -693,23 +570,30 @@ canvas {
     color: var(--color10);
   }
   
-.img-formation {
-  width: 100%;
-  height: 250px; /* Choisis une hauteur adaptée à ton design */
-  object-fit: cover;
-  display: block;
-}
+/* ____________________ IMAGES ET responsive ____________________________ */
 
-.img-cfi {
-  width: 400px;
-  height: 100%; /* Choisis une hauteur adaptée à ton design */
-  object-fit: cover;
-  display: block;
-}
 
+.img-formation,
+.img-cfi,
 .img-missions {
-  width: 400px;
-  height: 100%; /* Choisis une hauteur adaptée à ton design */
+  width: 100%;
+  height: 300px;
   object-fit: cover;
   display: block;
+}
+
+@media (max-width: 768px) {
+  .img-formation,
+  .img-cfi,
+  .img-missions {
+    height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .img-formation,
+  .img-cfi,
+  .img-missions {
+    height: 100%;
+  }
 }
