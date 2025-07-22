@@ -47,9 +47,7 @@
                 <div class="accueil__text__mid">
                     <h1>Contact</h1>
                 </div>
-                <!-- <div class="accueil__text__bot">
-                    <p>scroll down <i class="fas fa-long-arrow-alt-down"></i></p>
-                </div> -->
+                
             </div>
         </div>
     </section>
@@ -61,7 +59,7 @@
 <section class="section-contact">
   <div class="contact-container">
     <!-- Partie gauche : Informations -->
-    <div class="contact-info" data-aos="zoom-in" data-aos-delay="300">
+    <div class="contact-info" data-aos="zoom-in" data-aos-delay="200">
       <div class="entete__titre">
         <h2>Contact</h2>
         <div class="barre"></div>
@@ -73,22 +71,44 @@
     </div>
 
     <!-- Partie droite : Formulaire -->
-    <div class="contact-form" data-aos="fade-up" data-aos-delay="400">
+    <div class="contact-form" data-aos="fade-up" data-aos-delay="200">
+
       <form action="#" method="post">
-        <div class="form-group">
-          <label for="nom">Nom</label>
-          <input type="text" id="nom" name="nom" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Adresse e-mail</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <button type="submit">Envoyer</button>
-      </form>
+  <div class="form-group">
+    <label for="nom">Nom</label>
+    <input type="text" id="nom" name="nom" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Adresse e-mail</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+
+  <div class="form-group">
+    <label for="telephone">Numéro de téléphone</label>
+    <input type="tel" id="telephone" name="telephone" pattern="[0-9]{10}"  required>
+  </div>
+
+  <div class="form-group">
+    <label for="motif">Motif du message</label>
+    <select id="motif" name="motif" required>
+      <option value="" disabled selected>-- Sélectionner un motif --</option>
+      <option value="formation_nageur">Formation de nageur-sauveteur SNSM</option>
+      <option value="psc1">Formation PSC1</option>
+      <option value="pse">Formation PSE</option>
+      <option value="dps">Demande de DPS</option>
+      <option value="autre">Autre</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  </div>
+
+  <button type="submit">Envoyer</button>
+</form>
+
     </div>
   </div>
 </section>

@@ -28,8 +28,8 @@ body {
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -108,8 +108,6 @@ canvas {
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 2px;
-   /*  display: flex;
-    align-items: center; */
     
 }
 
@@ -146,16 +144,6 @@ canvas {
     margin-bottom: 2rem;
 }
 
-.accueil__text__bot p {
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    position: relative;
-    animation-name: bounce;
-    animation-iteration-count: infinite;
-    animation-duration: 1s;
-    z-index: -1;
-}
 
 /* About */
 
@@ -214,8 +202,11 @@ canvas {
 .about__corps {
     margin-top: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* ✅ centrer les blocs */
+    gap: 6rem;
+    flex-wrap: wrap; /* facultatif pour le responsive */
 }
+
 
 .about__corps__block {
     width: 31%;
@@ -339,7 +330,7 @@ canvas {
     }
 
     .logo {
-        z-index: 20;
+        z-index: 1020;
     }
 
     .menu {
@@ -619,8 +610,9 @@ canvas {
   background-color: #fff;
   padding: 2rem;
   border-radius: 1rem;
-/*   box-shadow: 0 0 15px rgba(0,0,0,0.05);
- */}
+  /* box-shadow optionnel */
+  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); */
+}
 
 .contact-form form .form-group {
   margin-bottom: 1.5rem;
@@ -632,14 +624,34 @@ canvas {
   font-weight: bold;
 }
 
+/* 🧩 Style unifié pour tous les champs */
 .contact-form input,
-.contact-form textarea {
+.contact-form textarea,
+.contact-form select {
   width: 100%;
-  padding: 0.8rem;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 0.5rem;
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  resize: none;
 }
 
+/* 🎯 Spécificité visuelle du <select> */
+.contact-form select {
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 8L0.803848 0.5L11.1962 0.5L6 8Z' fill='%23333'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 12px;
+}
+
+/* 🟦 Bouton d’envoi */
 .contact-form button {
   background-color: #0a2a43;
   color: #fff;
@@ -648,8 +660,9 @@ canvas {
   border-radius: 0.5rem;
   cursor: pointer;
   font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
 .contact-form button:hover {
-  background-color: #0a2a43;
+  background-color: #bee3ff;
 }
