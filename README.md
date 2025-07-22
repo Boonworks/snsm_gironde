@@ -77,11 +77,9 @@ Présentation de la **SNSM** et du **CFI**, leur rôle essentiel dans la sécuri
 
 ---
 
-
-
-
 ## RESTE
 
->balises iframe
+> balises iframe
+
 > Ajouter logo CFI (ou ca ?)
 ---
