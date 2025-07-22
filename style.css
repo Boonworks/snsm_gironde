@@ -28,9 +28,9 @@ body {
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
+    padding-left: 3rem;
+    padding-right: 3rem;
+}   
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
@@ -172,6 +172,7 @@ canvas {
 .entete__titre {
     width: 70%;
     padding-top: 1rem;
+    padding-left: 1rem;
 }
 
 .entete__titre h2 {
@@ -205,6 +206,15 @@ canvas {
     justify-content: center; /* ✅ centrer les blocs */
     gap: 6rem;
     flex-wrap: wrap; /* facultatif pour le responsive */
+}
+
+
+/* AVOIR TITRE + LOGO  */
+
+ .bloc-titre-logo {
+    display: flex;
+    align-items: center; /* aligne verticalement */
+    gap: 40rem; /* espace entre logo et titre */
 }
 
 
@@ -548,18 +558,22 @@ canvas {
 
 
   .btn-inscription {
-    display: inline-block;
-   /*  text-align: center;  */
-    margin-top: 1rem;
+    background-color: #0a2a43;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
     font-weight: bold;
-    color: var(--color2);
-    text-decoration: none;
-    font-size: 1rem;
+    transition: background-color 0.3s ease;
   }
   
   .btn-inscription:hover {
-    color: var(--color10);
+    background-color: #bee3ff;
   }
+
+
+
   
 /* ____________________ IMAGES ET responsive ____________________________ */
 
