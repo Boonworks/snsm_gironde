@@ -720,20 +720,22 @@ canvas {
 @media (max-width: 991px) {
     /* On remet "Formation" aligné comme les autres */
     .menu .has-submenu > a {
-        padding-left: 2rem;  /* Même padding que les autres */
+        padding-left: 4rem;  /* Même padding que les autres */
     }
 
     /* Le sous-menu est indenté pour montrer la hiérarchie */
     .menu .has-submenu .submenu {
         display: block;
         position: static;
-        padding-left: 1rem;  /* Indentation uniquement des enfants */
         background: none;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
     }
 
     .menu .has-submenu .submenu a {
-        font-size: 0.9rem;
-        padding: 0.3rem 0;
+        font-size: 1rem;
+        padding: 0.5rem 0rem;       
     }
 }
 
