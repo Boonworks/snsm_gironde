@@ -31,6 +31,7 @@ Présentation de la **SNSM** et du **CFI**, leur rôle essentiel dans la sécuri
 
 > photo + contenu
 
+> rajouter voir aussi fin de page
 ---
 
 
@@ -69,11 +70,9 @@ Présentation de la **SNSM** et du **CFI**, leur rôle essentiel dans la sécuri
 
 
 
-##  Rejoindre l’association (ou le mettre dans le site ???)
+##  Rejoindre l’association 
 
- Vous souhaitez participer à nos missions de **sécurité civile** ?  
- Contactez-nous à **[XXXXXXX]**  
- Merci de préciser vos qualifications et vos souhaits d’engagement.
+> refaire le texte je suis pas fan
 
 ---
 
