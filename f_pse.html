@@ -5,13 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNSM-GIRONDE</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300;400&display=swap" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="img/web/logo.png">
@@ -28,11 +25,19 @@
             </div>
             <ul class="menu">
                 <li><a href="index.html" class="menu__link">Accueil</a></li>
-                <li><a href="formation.html" class="menu__link">Formation</a></li>
-                <li><a href="calendrier.html" class="menu__link"> Calendrier </a></li>
+                <li class="has-submenu">
+                    <a href="#" class="menu__link submenu-toggle">Formation</a>
+                    <ul class="submenu">
+                        <li><a href="f_ns.html" class="menu__link">Devenir Nageur Sauveteur</a></li>
+                        <li><a href="f_pse.html" class="menu__link">Filière professionelle - PSE</a></li>
+                        <li><a href="f_psc.html" class="menu__link">Filière citoyenne - PSE</a></li>
+                        </ul>
+                </li>
+                <li><a href="calendrier.html" class="menu__link">Calendrier</a></li>
                 <li><a href="contact.html" class="menu__link">Contact</a></li>
-                <li><a href="photos.html" class="menu__link">Album</a></li>      
+                <li><a href="photos.html" class="menu__link">Album</a></li>
             </ul>
+
             <div class="toggle">
                 <i class="fas fa-bars ouvrir"></i>
                 <i class="fas fa-times fermer"></i>
@@ -44,15 +49,14 @@
                     <p>Centre de formation et d'intervention de Gironde</p>
                 </div>
                 <div class="accueil__text__mid">
-                    <h1>Se Former</h1>
+                    <h1>Filière professionelle - PSE</h1>
                 </div>
             </div>
         </div>
     </section>
 
-
-
-<!----------------------------- SECTION PRINCIPALE---------------------- -->
+  
+<!----------------------------- SECTION PRINCIPALE----------------------  -->
 
 
 <section class="formation" data-aos="fade-up" data-aos-delay="100">
@@ -63,39 +67,11 @@
                 <div class="barre"></div>
             </div>
         </div>
-        <p style="text-align: justify;">Les 32 centres de formation des Sauveteurs en Mer proposent un cursus en 8 mois, 
-            d’octobre à mai, soit quelque 400 heures de cours et d’ateliers pratiques dispensés par 800 
-            formateurs bénévoles.
+        <p style="text-align: justify;">texte
         </p>
         <div class="about__corps">
 
-  <!-- Bloc 1 – Devenir Nageur Sauveteur -->
-  <div class="about__corps__block" id="nageur">
-    <img src="img/galerie/1.jpg" alt="Devenir Nageur Sauveteur" class="img-formation" />
-    <h3>Devenir Nageur Sauveteur SNSM</h3>
-    <ul>
-      <li>Présentation des qualifications</li>
-      <li><strong>Coût total de la formation : 714 €</strong></li>
-      <li>Affectation d’un mois minimum sur la saison estivale</li>
-      <li><em>Logement fourni, équipement fourni, aucune démarche administrative</em></li>
-    </ul>
-    <p><strong>Évolutions possibles :</strong></p>
-    <ul>
-      <li>ACP – CP</li>
-      <li>Stage océan niveau 2</li>
-      <li>Marine Jet</li>
-      <li>Formations de formateurs</li>
-      <li>Formations de sauveteur embarqué</li>
-    </ul>
-    <p><em>(Possibilité d’ajouter une carte des postes SNSM)</em></p>
-  </div>
-
-  <!-- Bloc 2 – Secourisme citoyen PSC1 -->
-  <div class="about__corps__block" id="psc1">
-    <img src="img/galerie/1.jpg" alt="Secourisme citoyen" class="img-formation" />
-    <h3>Secourisme citoyen – PSC1</h3>
-    <p>Contactez-nous pour organiser votre session personnalisée de <strong>PSC1</strong>.</p>
-  </div>
+   
 
   <!-- Bloc 3 – PSE1 & PSE2 -->
   <div class="about__corps__block" id="pse">
@@ -137,14 +113,10 @@
 
 
 
+<!----------------------------- FOOTER----------------------  -->
 
 
-
-
-
-
-<!----------------------------- FOOTER---------------------- -->
-<section class="contact">
+    <section class="contact">
         <div class="footer-bottom">
             <a href="https://monespace.snsm.org/s/login/?ec=302&startURL=%2Fs%2F" target="_blank">
                 <img src="img/web/logo.png"> 
@@ -168,3 +140,8 @@
     <script src="app.js"></script>
 </body>
 </html>
+
+
+
+
+

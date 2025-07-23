@@ -27,8 +27,6 @@ Présentation de la **SNSM** et du **CFI**, leur rôle essentiel dans la sécuri
 
 ## FORMATION
 
-> Chaque section ci-dessous peut renvoyer vers une **ancre** spécifique sur la page ??
-
 > photo + contenu
 
 > rajouter voir aussi fin de page

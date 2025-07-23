@@ -680,3 +680,69 @@ canvas {
 .contact-form button:hover {
   background-color: #bee3ff;
 }
+
+/* --- Sous-menu --- */
+.has-submenu {
+    position: relative;
+}
+/* --- Sous-menu par défaut (desktop) --- */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--color3);
+    padding: 1rem 0;
+    width: 250px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.submenu li a {
+    padding: 0.5rem 1rem;
+    color: var(--color10);
+    text-decoration: none;
+    display: block;
+}
+
+.submenu li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Desktop : hover = affiche le sous-menu */
+@media (min-width: 992px) {
+    .has-submenu:hover .submenu {
+        display: block;
+    }
+}
+
+/* Mobile : le sous-menu est TOUJOURS visible dans le menu burger */
+@media (max-width: 991px) {
+    /* On remet "Formation" aligné comme les autres */
+    .menu .has-submenu > a {
+        padding-left: 2rem;  /* Même padding que les autres */
+    }
+
+    /* Le sous-menu est indenté pour montrer la hiérarchie */
+    .menu .has-submenu .submenu {
+        display: block;
+        position: static;
+        padding-left: 1rem;  /* Indentation uniquement des enfants */
+        background: none;
+    }
+
+    .menu .has-submenu .submenu a {
+        font-size: 0.9rem;
+        padding: 0.3rem 0;
+    }
+}
+
+/* Supprimer les puces (petits ronds) des listes */
+.menu,
+.menu ul,
+.submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+

@@ -98,3 +98,26 @@ document.addEventListener("keydown", (e) => {
     }
   });
   
+
+
+
+for (let i = 0; i < liens.length; i++) {
+    liens[i].addEventListener('click', function (e) {
+        // Empêche la fermeture quand on clique sur Formation (sous-menu)
+        if (this.closest('.has-submenu')) return;
+        body.classList.toggle('open');
+    });
+}
+
+toggle.addEventListener('click', function () {
+    body.classList.toggle('open');
+});
+
+// ---- Gestion du sous-menu mobile ----
+const submenuToggle = document.querySelector('.submenu-toggle');
+const parentSubmenu = submenuToggle.closest('.has-submenu');
+
+submenuToggle.addEventListener('click', function (e) {
+    e.preventDefault(); // On empêche la redirection
+    parentSubmenu.classList.toggle('open');
+});
