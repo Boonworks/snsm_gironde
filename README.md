@@ -52,16 +52,6 @@ Présentation de la **SNSM** et du **CFI**, leur rôle essentiel dans la sécuri
 
 ##  DPS – Dispositifs Prévisionnels de Secours 
 
-###  Vous organisez un évènement ?
-
-- Le **CFI Gironde** est habilité pour les **DPS terrestres et nautiques**.
-- Matériel & personnel qualifiés disponibles :  
-  paddle, IRB, SR, Jet...
--  Merci de compléter le document suivant : [XXXXX]
-
- *Ajoutez ici des photos représentatives (paddle, jet, IRB, etc.)*
-
-
 > Page à créer mais rajouter DPS dans le sommaire ? pas assez explicite mais trop long pour le mot complet.
 
 ---
