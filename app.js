@@ -14,28 +14,29 @@ toggle.addEventListener('click', function() {
 
 let tl = gsap.timeline();
 
-tl.from('.accueil', {
-    duration: 1.25,
+tl.from('.accueil', {   /* temps page de fond */ 
+    duration: 0.1,
     filter: "blur(10px)"
 })
 
-tl.from('.overlay', {
-    duration: 0.75,
+tl.from('.overlay', { /* temps bleu */
+    duration: 1,
     x: '-100%'
 })
 
-tl.from('.logo, .menu, .toggle', {
-    duration: 0.75,
-    opacity: 0
-});
+tl.from('.logo, .menu, .toggle', { /* temps menu */
+    duration: 0.7,
+    opacity: 0,
+/*     filter: "blur(5px)"
+ */});
 
-tl.from('.accueil__text__top, .accueil__text__mid, .accueil__text__bot', {
-    duration: 0.75,
-    opacity: 0
+tl.from('.accueil__text__top, .accueil__text__mid, .accueil__text__bot', { /* temps titre*/
+    duration: 0.5,
+    opacity: 0    
 })
 
-tl.from('.accueil__text__top .sep', {
-    duration: 0.75,
+tl.from('.accueil__text__top .sep', { /* temps barre */
+    duration: 0.7,
     width: '0px'
 })
 
