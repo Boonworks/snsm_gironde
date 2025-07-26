@@ -657,7 +657,7 @@ canvas {
   resize: none;
 }
 
-/* 🎯 Spécificité visuelle du <select> */
+/*  Spécificité visuelle du <select> */
 .contact-form select {
   background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 8L0.803848 0.5L11.1962 0.5L6 8Z' fill='%23333'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
@@ -665,7 +665,7 @@ canvas {
   background-size: 12px;
 }
 
-/* 🟦 Bouton d’envoi */
+/* Bouton d’envoi */
 .contact-form button {
   background-color: #0a2a43;
   color: #fff;
